@@ -163,7 +163,7 @@ function initializeQAScoresBySupervisorChart(data) {
                     anchor: 'end',
                     align: 'end',
                     formatter: (value) => value + '%',
-                    color: '#fff',
+                    color: '#555',
                     font: {
                         weight: 'bold'
                     }
@@ -259,7 +259,7 @@ function initializeHighRollersChart(data) {
                 datalabels: {
                     anchor: 'end',
                     align: 'end',
-                    formatter: (value) => value + '%',
+                    formatter: (value) => '',
                     color: '#555',
                     font: {
                         weight: 'bold'
