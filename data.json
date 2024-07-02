@@ -1,0 +1,324 @@
+{
+    "Monthly QA Questions Performance Report": [
+        {
+            "Question": "Customer Survey Presented",
+            "Value": 150,
+            "Percentage_Yes": "42.00%",
+            "Percentage_No": "58.00%",
+            "Percentage_NA": "0.00%"
+        },
+        {
+            "Question": "Steps to duplicate the issue documented",
+            "Value": 150,
+            "Percentage_Yes": "78.00%",
+            "Percentage_No": "22.00%",
+            "Percentage_NA": "0.00%"
+        },
+        {
+            "Question": "Steps to resolve the issue documented",
+            "Value": 150,
+            "Percentage_Yes": "82.00%",
+            "Percentage_No": "18.00%",
+            "Percentage_NA": "0.00%"
+        }
+    ],
+    "QA Scores for June": [
+        {
+            "Analyst": "Philligin, Cameron",
+            "Score": 94.0
+        },
+        {
+            "Analyst": "Wickman, Deborah",
+            "Score": 100.0
+        },
+        {
+            "Analyst": "Quarles, India",
+            "Score": 98.0
+        },
+        {
+            "Analyst": "Bailey, TJ",
+            "Score": 100.0
+        },
+        {
+            "Analyst": "Thomas, Shayla",
+            "Score": 96.0
+        },
+        {
+            "Analyst": "Souffrant, Iven",
+            "Score": 97.0
+        },
+        {
+            "Analyst": "Carty, Bill",
+            "Score": 100.0
+        },
+        {
+            "Analyst": "Taylor, Jake",
+            "Score": 100.0
+        },
+        {
+            "Analyst": "Agee, Levert",
+            "Score": 98.0
+        },
+        {
+            "Analyst": "Philligin, Cameron",
+            "Score": 83.0
+        },
+        {
+            "Analyst": "Edgerton, Terrance",
+            "Score": 94.0
+        },
+        {
+            "Analyst": "Hankinson, Bryce",
+            "Score": 97.0
+        },
+        {
+            "Analyst": "McFarlane, Blanca",
+            "Score": 98.0
+        },
+        {
+            "Analyst": "Nova, Jonathan",
+            "Score": 93.0
+        },
+        {
+            "Analyst": "Rogers, Kim",
+            "Score": 94.0
+        },
+        {
+            "Analyst": "Sejour, Sevens",
+            "Score": 97.0
+        },
+        {
+            "Analyst": "Williams, Emanuel",
+            "Score": 100.0
+        },
+        {
+            "Analyst": "Singleton, Terrance",
+            "Score": 89.0
+        },
+        {
+            "Analyst": "Brown, Zach",
+            "Score": 97.0
+        },
+        {
+            "Analyst": "De Guzman, Christopher",
+            "Score": 100.0
+        },
+        {
+            "Analyst": "Phan, Andy",
+            "Score": 87.0
+        },
+        {
+            "Analyst": "Huffman, Khalil",
+            "Score": 97.0
+        },
+        {
+            "Analyst": "Parks, Toni",
+            "Score": 100.0
+        },
+        {
+            "Analyst": "Okegbenro, Cedell",
+            "Score": 88.0
+        },
+        {
+            "Analyst": "Mattison, Maya",
+            "Score": 96.0
+        },
+        {
+            "Analyst": "Carothers, Dino",
+            "Score": 100.0
+        },
+        {
+            "Analyst": "Nunez, Luis",
+            "Score": 100.0
+        },
+        {
+            "Analyst": "Turner, Leigh",
+            "Score": 100.0
+        },
+        {
+            "Analyst": "Robinson, Steve",
+            "Score": 100.0
+        },
+        {
+            "Analyst": "Rodriguez, Angel",
+            "Score": 96.0
+        },
+        {
+            "Analyst": "Plourde, Andrew",
+            "Score": 100.0
+        },
+        {
+            "Analyst": "Wells, Ron",
+            "Score": 98.0
+        },
+        {
+            "Analyst": "Heissner, Stuart",
+            "Score": 98.0
+        },
+        {
+            "Analyst": "Carter, Terry",
+            "Score": 100.0
+        },
+        {
+            "Analyst": "Grant, La Shonda",
+            "Score": 100.0
+        },
+        {
+            "Analyst": "Kelly, Satchel",
+            "Score": 100.0
+        },
+        {
+            "Analyst": "Carpio-Smalls, Donovan",
+            "Score": 100.0
+        }
+    ],
+    "Trends": [
+        {
+            "Issue": "Documentation",
+            "Count": 20
+        },
+        {
+            "Issue": "Incorrect Template",
+            "Count": 15
+        },
+        {
+            "Issue": "No 7-day History",
+            "Count": 10
+        },
+        {
+            "Issue": "Duplicate Incidents",
+            "Count": 5
+        }
+    ],
+    "Department QA Averages": [
+        {
+            "Month": "March",
+            "Average": 95
+        },
+        {
+            "Month": "April",
+            "Average": 94
+        },
+        {
+            "Month": "May",
+            "Average": 96
+        },
+        {
+            "Month": "June",
+            "Average": 96
+        }
+    ],
+    "Managers": [
+        {
+            "Manager": "Michelin Phillips",
+            "Agents": [
+                "Adderley, Antoine",
+                "Brown, Zach",
+                "Robertson, Kaleb",
+                "De Guzman, Christopher",
+                "Hadera, Abel",
+                "Huffman, Khalil",
+                "Mattison, Maya",
+                "Okegbenro, Cedell",
+                "Parks, Toni",
+                "Phan, Andy",
+                "Singleton, Terrance"
+            ]
+        },
+        {
+            "Manager": "Kara Davis",
+            "Agents": [
+                "Bailey, TJ",
+                "Thomas, Shayla",
+                "Quarles, India",
+                "Souffrant, Iven",
+                "Taylor, Jake",
+                "Wickman, Deborah",
+                "Agee, Levert"
+            ]
+        },
+        {
+            "Manager": "Raymond McMillan",
+            "Agents": [
+                "Akins, Shon",
+                "Echevarria, Jorge",
+                "Jennings, Ken",
+                "Jones, Joshua",
+                "Solomon, Maxine",
+                "Turner, Leigh",
+                "Wyatt, Dashaud"
+            ]
+        },
+        {
+            "Manager": "Dionna Ford",
+            "Agents": [
+                "Duval, Justin",
+                "Edgerton, Terrance",
+                "Hankinson, Bryce",
+                "McFarlane, Blanca",
+                "Nova, Jonathan",
+                "Rogers, Kim",
+                "Sejour, Sevens"
+            ]
+        },
+        {
+            "Manager": "Joan Rogers",
+            "Agents": [
+                "Heissner, Stuart",
+                "Hull, Tom",
+                "Nunez, Luis",
+                "Plourde, Andrew",
+                "Robinson, Steve",
+                "Rodriguez, Angel",
+                "Wells, Ron"
+            ]
+        },
+        {
+            "Manager": "Terry Youngblood",
+            "Agents": [
+                "Carpio-Smalls, Donovan",
+                "Carter, Terry",
+                "Grant, La Shonda",
+                "kelly, Satchel"
+            ]
+        }
+    ],
+    "Monthly QA Scores by Supervisor": [
+        {
+            "Supervisor": "Michelin Phillips",
+            "Scores": {
+                "June": 93.26
+            }
+        },
+        {
+            "Supervisor": "Kara Davis",
+            "Scores": {
+                "June": 97.16
+            }
+        },
+        {
+            "Supervisor": "Raymond McMillan",
+            "Scores": {
+                "June": 96.31
+            }
+        },
+        {
+            "Supervisor": "Dionna Ford",
+            "Scores": {
+                "June": 95.48
+            }
+        },
+        {
+            "Supervisor": "Joan Rogers",
+            "Scores": {
+                "June": 95.86
+            }
+        },
+        {
+            "Supervisor": "Terry Youngblood",
+            "Scores": {
+                "June": 99.52
+            }
+        }
+    ]
+}

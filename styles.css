@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 0;
+    margin: 0;
+    background-color: #f8f9fa;
+}
+
+.title-header {
+    background-color: #1f3b73;
+    color: white;
+    padding: 1rem 0;
+}
+
+.dashboard-title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 0;
+}
+
+.card {
+    border: none;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 0.5rem;
+}
+
+.card-title {
+    color: #1f3b73;
+    font-size: 0.9rem;
+    font-weight: bold;
+    margin: 0;
+}
+
+.card-value {
+    font-size: 1.2rem;
+    color: #1f3b73;
+    margin: 0;
+}
+
+.card-header {
+    background-color: #1f3b73;
+    color: white;
+    font-weight: bold;
+    font-size: 1rem;
+    padding: 0.5rem;
+}
+
+.card-body {
+    padding: 0.5rem;
+}
+
+canvas {
+    max-width: 100% !important;
+    max-height: 200px !important;
+}
+
+.chart-description {
+    margin-top: 10px;
+    font-size: 0.8rem;
+    color: #555;
+    text-align: center;
+}
+
+.chart-legend {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.chart-legend-item {
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.chart-legend-color {
+    width: 12px;
+    height: 12px;
+    margin-right: 5px;
+    display: inline-block;
+}
+
+/* Adjust the yellow color to a lighter shade */
+.light-yellow {
+    background-color: #FFD700 !important; /* Use a lighter yellow */
+    border-color: #FFD700 !important;
+}
+
+/* Optional: Specific card styles if needed */
+.card-light-yellow {
+    background-color: #FFEB3B;
+    border-color: #FFEB3B;
+}
