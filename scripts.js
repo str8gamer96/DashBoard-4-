@@ -28,8 +28,8 @@ document.addEventListener('DOMContentLoaded', function () {
             if (document.getElementById('departmentQAAveragesChart')) {
                 initializeDepartmentQAAveragesChart(data['Department QA Averages']);
             }
-            if (document.getElementById('highRollersChart')) {
-                initializeHighRollersChart(data['QA Scores for June']);
+            if (document.getElementById('highRollersList')) {
+                populateHighRollersList(data['QA Scores for June']);
             }
 
             console.log('Charts initialized');
@@ -227,46 +227,13 @@ function initializeDepartmentQAAveragesChart(data) {
     });
 }
 
-function initializeHighRollersChart(data) {
-    var ctx = document.getElementById('highRollersChart').getContext('2d');
-    var highRollers = [...new Set(data.filter(analyst => analyst['Score'] === 100).map(analyst => analyst['Analyst']))];
-    var highRollersChart = new Chart(ctx, {
-        type: 'bar',
-        data: {
-            labels: highRollers,
-            datasets: [{
-                label: 'Monthly High Rollers',
-                data: highRollers.map(() => 100),
-                backgroundColor: '#FFD700',
-                borderColor: '#FFD700',
-                borderWidth: 1
-            }]
-        },
-        options: {
-            indexAxis: 'y',
-            scales: {
-                x: {
-                    beginAtZero: true,
-                    ticks: {
-                        callback: function(value) {
-                            return value + '%';
-                        },
-                        max: 100
-                    }
-                }
-            },
-            plugins: {
-                datalabels: {
-                    anchor: 'end',
-                    align: 'end',
-                    formatter: (value) => '',
-                    color: '#555',
-                    font: {
-                        weight: 'bold'
-                    }
-                }
-            }
-        },
-        plugins: [ChartDataLabels]
+function populateHighRollersList(data) {
+    const highRollersList = document.getElementById('highRollersList');
+    const highRollers = [...new Set(data.filter(analyst => analyst['Score'] === 100).map(analyst => analyst['Analyst']))];
+    highRollers.forEach(roller => {
+        const listItem = document.createElement('div');
+        listItem.className = 'high-roller-item';
+        listItem.textContent = roller;
+        highRollersList.appendChild(listItem);
     });
 }
