@@ -237,3 +237,4 @@ function populateHighRollersList(data) {
         highRollersList.appendChild(listItem);
     });
 }
+
