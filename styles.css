@@ -60,16 +60,23 @@ canvas {
     text-align: center;
 }
 
-.chart-legend {
+#highRollersList {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
-    margin-top: 10px;
 }
 
-.chart-legend-item {
-    display: flex;
-    align-items: center;
-    margin-right: 10px;
+.high-roller-item {
+    background-color: #FFD700;
+    color: #1f3b73;
+    font-weight: bold;
+    text-align: center;
+    padding: 5px 10px;
+    margin: 5px;
+    border-radius: 5px;
+    flex: 1 1 calc(33% - 10px); /* Adjust to fit 3 items per row */
+    max-width: calc(33% - 10px); /* Ensure items do not exceed the desired width */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 .chart-legend-color {
