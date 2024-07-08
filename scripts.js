@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', function () {
         .then(data => {
             console.log('JSON data loaded:', data);
 
-            const totalEvaluations = data['QA Scores for June'].length;
+            const totalEvaluations = 96;  // Update the total evaluations here
             const teamAverageScore = calculateTeamAverageScore(data['QA Scores for June']);
             const perfectScores = countPerfectScores(data['QA Scores for June']);
             const belowAverage = countBelowAverageScores(data['QA Scores for June'], 95);
